@@ -1,0 +1,23 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pushpendraGit/nature_css_web.git"
+  },
+  "author": "Pushpendra Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pushpendraGit/nature_css_web/issues"
+  },
+  "homepage": "https://github.com/pushpendraGit/nature_css_web#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
