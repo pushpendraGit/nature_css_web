@@ -1,29 +1,28 @@
-@import 'abstracts/functions';
-@import 'abstracts/variables';
-@import 'abstracts/mixins';
+@import "abstracts/functions";
+@import "abstracts/variables";
+@import "abstracts/mixins";
 
+@import "base/base"; //parcel file
+@import "base/animations";
+@import "base/typography";
+@import "base/utility";
 
-@import 'base/base'; //parcel file
-@import 'base/animations';
-@import 'base/typography';
-@import 'base/utility';
+@import "components/button";
 
-@import 'components/button';
+@import "layout/header";
+@import "layout/grid";
 
-@import 'layout/header';
-@import 'layout/grid';
+@import "pages/home";
+@import "components/composition";
+@import "components/feature-box";
 
-@import 'pages/home';
-
-
-
-.heading-primary{
+.heading-primary {
   color: #fff;
   text-transform: uppercase;
   backface-visibility: hidden;
   margin-bottom: 6rem;
 
-  &--main{
+  &--main {
     display: block;
     font-size: 6rem;
     font-weight: 400;
@@ -31,24 +30,13 @@
     animation-name: moveInLeft;
     animation-duration: 1s;
     animation-timing-function: ease-out;
-  
   }
-  
-  
-  &--sub{
+
+  &--sub {
     display: block;
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: 1.75rem;
     animation: moveInRight 1s ease-out;
-  
   }
-  
-
-
 }
-
-
-
-
-
